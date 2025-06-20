@@ -1,0 +1,10 @@
+framework: botport
+name: Tickets
+version: 1.0
+author: Botport Devs
+description: Ett avancerat modulärt ticket system till din discord server.
+
+mainfile: ./src/main.js
+eventfile: ./events/tickethandler.js
+mainconfig: ./config/ticketoptions.json
+type: addon

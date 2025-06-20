@@ -1,0 +1,5 @@
+{
+  "Database": [
+    "CREATE TABLE IF NOT EXISTS Tickets (\n    Id INT AUTO_INCREMENT PRIMARY KEY,\n    CreatorId VARCHAR(255) NOT NULL,\n    CreatorUsername VARCHAR(255) NOT NULL,\n    Category VARCHAR(100) NOT NULL,\n    ChannelId VARCHAR(255) NOT NULL UNIQUE,\n    GuildId VARCHAR(255) NOT NULL,\n    MessageId VARCHAR(255) NOT NULL,\n    Status ENUM('open', 'closed', 'archived') DEFAULT 'open',\n    Reason TEXT NULL,\n    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    ClosedAt TIMESTAMP NULL,\n    INDEX idx_creator_category (CreatorId, Category),\n    INDEX idx_channel (ChannelId),\n    INDEX idx_status (Status)\n);"
+  ]
+}

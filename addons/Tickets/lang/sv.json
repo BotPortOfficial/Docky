@@ -1,0 +1,13 @@
+{
+"ticket.js": {
+    "maxTicketsReached": "Du har nått det maximala antalet öppna ärenden för denna kategori.",
+    "ticketCooldownMsg": "Du har redan skapat ett ärende nyligen. Vänta lite och försök igen.",
+    "categoryIdError": "Kategori-ID är ogiltigt eller kategorin finns inte.",
+    "ticketCloseButton": "Stäng ärende",
+    "ticketCloseWithReasonButton": "📝 Stäng med anledning",
+    "ticketCreated": "Ditt ärende har skapats i {{channelId}}",
+    "closeModalTitle": "Stäng ärende med anledning",
+    "closeModalLabel": "Ange anledning",
+    "ticketDeletedLog": "Borttaget ärende {{channelId}}"
+  }
+}

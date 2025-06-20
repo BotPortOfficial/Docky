@@ -1,0 +1,102 @@
+{
+  "Ticket": {
+    "Guild": "1351222190594461767",
+    "KanalId": "1351222712592371762",
+    "Arkiv": {
+      "enabled": true,
+      "id": "1355247698852450525"
+    },
+    "embedTitle": "🎫 Tickets",
+    "embedDescription": "Om du behöver hjälp med en fråga eller ett problem, välj ett alternativ nedan.",
+    "embedColor": "#007BFF",
+    "enableimage": true,
+    "embedImage": "https://r2.fivemanage.com/3bt5kwRNWg9hCsFyIIfvo/images/support.png",
+    "enablefooter": true,
+    "embedFooter": "Server Roleplay - discord.gg/discord",
+    "selectMenuPlaceholder": "Välj ett alternativ nedan",
+    "enablefields": true,
+    "addfields": [
+      {
+        "name": "Innan du öppnar ett ärende:",
+        "value": "Förklara ditt ärende så detaljerat som möjligt. Dessa ärenden är endast för hjälp med frågor eller problem."
+      }
+    ],
+    "enableembeds": true,
+    "options": [
+      {
+        "value": "support",
+        "label": "📩 Support",
+        "description": "Öppna ett support ärende.",
+        "prefix": "support",
+        "enableticketfooter": false,
+        "embedTitle": "Support Ticket",
+        "embedDescription": "Tack för att du kontaktar Server Support!\n\nVänligen beskriv ditt ärende så detaljerat som möjligt. En <@&1351273969650630686> i vårt team kommer att hjälpa dig så snart som möjligt. Vänligen pinga inte då jag redan pingat dem.\n\nTack för ditt tålamod! 🙏",
+        "embedFooter": "Server Roleplay - discord.gg/discord",
+        "embedcolor": "#0384e0",
+        "closedTitle": "Tack för att du kontaktade support.",
+        "closedDMMessage": "<<@user>>\n\n📝 Anledning: <<@reason>>\n📅 Skapad: <<@createdatcode>>\n🔒 Stängd: <<@closedatcode>>\n\n<<@bold:Stängdes>>: <<@timestampcode>>\nStängdes för: <<@relative>>",
+        "closedembedFooter": "Server Roleplay - discord.gg/discord",
+        "closedembedColor": "#0384e0",
+        "category": "1351222760214364210",
+        "permissionRole": "1351273969650630686",
+        "MaxTicketsPerUser": 1
+      },
+      {
+        "value": "ledningsticket",
+        "label": "👔 Ledningsticket",
+        "description": "Öppna ett ledningsrelaterat ärende.",
+        "prefix": "ledning",
+        "enableticketfooter": true,
+        "embedTitle": "Lednings Ticket",
+        "embedDescription": "Tack för att du kontaktar Ledningen! En medlem i <@&1351274035157405760> är på väg inom kort! Vänligen pinga inte då jag redan pingat dem.\n\nVänligen beskriv ditt ärende noggrant, så att vi kan hjälpa dig på bästa sätt!",
+        "embedFooter": "Server Roleplay - discord.gg/discord",
+        "embedcolor": "#6506b3",
+        "closedTitle": "Tack för att du kontaktade ledningen.",
+        "closedDMMessage": "<<@user>>\n\n📝 Anledning: <<@reason>>\n📅 Skapad: <<@createdatcode>>\n🔒 Stängd: <<@closedatcode>>\n\n<<@bold:Stängdes>>: <<@timestampcode>>\nStängdes för: <<@relative>>",
+        "closedembedFooter": "Server Roleplay - discord.gg/discord",
+        "closedembedColor": "#6506b3",
+        "category": "1351228415860019292",
+        "permissionRole": "1351274035157405760",
+        "MaxTicketsPerUser": 1
+      },
+      {
+        "value": "donationsticket",
+        "label": "💰 Donationsticket",
+        "description": "Öppna ett donationsrelaterat ärende.",
+        "prefix": "donation",
+        "enableticketfooter": true,
+        "embedTitle": "Donation Ticket",
+        "embedDescription": "Hej, en <@&1351273993990176941> kommer att vara med dig inom kort! Vänligen pinga inte då jag redan pingat dem.\n\nFör att påskynda processen, vänligen ange vad du vill donera så vi kan hjälpa dig så fort vi kan.",
+        "embedFooter": "Server Roleplay - discord.gg/discord",
+        "embedcolor": "#e9d60b",
+        "closedTitle": "Tack för att du öppnade ett donations ärende.",
+        "closedDMMessage": "<<@user>>\n*Vi vill meddela dig att ditt ärende nu har stängts!*\n*Information om ärendet!*\n\n📝 Anledning för stängning: <<@reason>>\n📅 Skapad den: <<@createdatcode>>\n🔒 Stängdes den: <<@closedatcode>>\n\n<<@bold:Stängdes kl>>: <<@timestampcode>>\nStängdes för: <<@relative>>",
+        "closedembedColor": "#e9d60b",
+        "closedembedFooter": "Server Roleplay - discord.gg/discord",
+        "category": "1351228441701122078",
+        "permissionRole": "1351273993990176941",
+        "MaxTicketsPerUser": 1
+      },
+      {
+        "value": "ansokning",
+        "label": "📝 Ansökningar",
+        "description": "www.hemsida.se",
+        "type": "link",
+        "buttonLabel": "Ansök Här",
+        "url": "https://website.se",
+        "replyContent": "Besök vårat forum för att ansöka!"
+      }
+    ],
+    "Ticketloggs": {
+      "enabled": true,
+      "channel": "1360579977631760386",
+      "opemembedDescription": "👤 Vem som öppnade ett ärende: <<@openuser>>\n🗓️ Skapad: <<@createdatcode>>\n⏱️ Tid sedan öppning: <<@relative>>\n🎫 Ticket skapad: <<@#channelid>>",
+      "openembedcolor": "#007BFF",
+      "closeembedDescription": "🛑 Vem som stängde ärendet: <<@closeuser>>\n👤 Vem som öppnade ärendet: <<@openuser>>\n📅 Stängd: <<@closedatcode>>\n⏳ Tid sedan stängning: <<@relative>>\n❌ Anledning för stängning: <<@reason>>\n🔒 Ticket stängd: <<@#channelid>>",
+      "closeembedcolor": "#007BFF",
+      "arkivembedDescription": "🗃️ Vem som arkiverade ärendet: <<@arkivuser>>\n📅 Vem som öppnade ärendet: <<@openuser>>\n📅 Tid sedan arkivering: <<@relative>>\n🗄️ Ticket som arkiverades: <<@#channelid>>",
+      "arkivembedcolor": "#007BFF",
+      "embedFooter": "Server Roleplay - discord.gg/discord"
+    }
+  }
+}
